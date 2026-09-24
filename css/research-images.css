@@ -12,3 +12,4 @@
 @media(max-width:850px){.publications li.illustrated-paper{padding-left:9px}.publications .research-image{position:static;margin-bottom:13px;width:300px}.entry.illustrated-paper{display:block}.entry.illustrated-paper .research-image{margin-bottom:13px;width:300px}}
 @media(max-width:620px){.publications li.illustrated-paper{padding-left:4px}.publications .research-image,.entry.illustrated-paper .research-image{width:100%;max-width:320px}.skills{grid-template-columns:1fr}}
 @media print{.publications li.illustrated-paper{padding-left:242px}.publications .research-image{position:absolute;width:210px}.entry.illustrated-paper{display:grid;grid-template-columns:210px 1fr}.entry.illustrated-paper .research-image{width:210px}}
+.personal-note{font-size:14px!important;color:var(--muted);margin-top:20px!important}
