@@ -1,6 +1,8 @@
 # Site settings
-title: "Jekyll Resume Template"
-description: "A resume template for Jekyll and GitHub Pages sites."
+title: "Yejin Choi | HCI & AI Researcher"
+description: "Multimodal sensing, human behavior modeling, and human-centered AI."
+url: "https://yejin-c2.github.io"
+baseurl: ""
 
 # Build settings
 markdown: kramdown

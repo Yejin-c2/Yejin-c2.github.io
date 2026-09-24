@@ -1,0 +1,14 @@
+/* Publication figures: use uncropped diagrams on a neutral canvas. */
+.intro h2.section-title{font-family:inherit;font-size:20px;letter-spacing:-.4px;font-weight:650;line-height:1.5;margin-bottom:18px}
+.publications li.illustrated-paper{display:list-item;position:relative;min-height:190px;padding-left:284px;margin-bottom:34px}
+.research-image{margin:0;width:260px;aspect-ratio:auto;border:1px solid var(--line);border-radius:5px;background:#f0f4f3;overflow:hidden}
+.publications .research-image{position:absolute;left:8px;top:4px}
+.research-image img{display:block;width:100%;height:auto;object-fit:contain;background:white}
+.image-placeholder{min-height:124px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:15px;color:#526e68}
+.image-placeholder span{font-size:12px;line-height:1.5}
+.image-placeholder small{font-size:9px;letter-spacing:.08em;text-transform:uppercase;color:#62766f;margin-top:9px}
+.entry.illustrated-paper{display:grid;grid-template-columns:260px minmax(0,1fr);gap:24px}
+.paper-body{min-width:0}.paper-body h3{margin-top:7px}.skills{grid-template-columns:135px 1fr}
+@media(max-width:850px){.publications li.illustrated-paper{padding-left:9px}.publications .research-image{position:static;margin-bottom:13px;width:260px}.entry.illustrated-paper{display:block}.entry.illustrated-paper .research-image{margin-bottom:13px;width:260px}}
+@media(max-width:620px){.publications li.illustrated-paper{padding-left:4px}.publications .research-image,.entry.illustrated-paper .research-image{width:100%;max-width:320px}.skills{grid-template-columns:1fr}}
+@media print{.publications li.illustrated-paper{padding-left:216px}.publications .research-image{position:absolute;width:188px}.entry.illustrated-paper{display:grid;grid-template-columns:188px 1fr}.entry.illustrated-paper .research-image{width:188px}}
